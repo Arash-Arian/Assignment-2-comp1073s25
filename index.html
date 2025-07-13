@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/main.js" defer></script>
+    <title>Order Your Smoothie</title>
+</head>
+<body>
+    <h1>Welcome to Smoothie Order</h1>
+    <form method="post">
+        <label for="flavor">Choose your smoothie flavor:</label>
+        <select id="flavor" name="flavor">
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+            <option value="mixed">Mixed Fruit</option>
+        </select>
+        <h2>Select size:</h2>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label>
+        <button type="submit">Place Your Order</button>
+    </form>
+</body>
+</html>
