@@ -10,8 +10,9 @@
     <title>Order Your Smoothie</title>
 </head>
 <body>
-    <h1>Welcome to Smoothie Order</h1>
+    <h1>Welcome to Smoothie Town!</h1>
     <form method="post">
+<!--        flavor section-->
         <label for="flavor">Choose your smoothie flavor:</label>
         <select id="flavor" name="flavor">
             <option value="strawberry">Strawberry</option>
@@ -19,13 +20,21 @@
             <option value="mango">Mango</option>
             <option value="mixed">Mixed Fruit</option>
         </select>
-        <h2>Select size:</h2>
-        <input type="radio" id="small" name="size" value="small">
-        <label for="small">Small</label>
-        <input type="radio" id="medium" name="size" value="medium">
-        <label for="medium">Medium</label>
-        <input type="radio" id="large" name="size" value="large">
-        <label for="large">Large</label>
+<!--        we create a size selection section-->
+        <div class="size">
+            <h2>Select size:</h2>
+            <label for="small">Small</label>
+            <input type="radio" id="small" name="size" value="small">
+            <label for="medium">Medium</label>
+            <input type="radio" id="medium" name="size" value="medium">
+            <label for="large">Large</label>
+            <input type="radio" id="large" name="size" value="large">
+        </div>
+<!--        we create a checkbox for added sugar-->
+        <div class="sugar">
+            <label for="sugar">Add sugar?</label>
+            <input type="checkbox" id="sugar" name="sugar" value="yes">
+        </div>
         <button type="submit">Place Your Order</button>
     </form>
 </body>
