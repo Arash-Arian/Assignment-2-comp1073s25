@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family:  Corbel, sans-serif;
 }
+
+/*nested CSS*/
 body{
     background-color: bisque;
     display: flex;
