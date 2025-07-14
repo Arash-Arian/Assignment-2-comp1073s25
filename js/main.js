@@ -31,15 +31,15 @@ document.getElementById('submit').addEventListener('click', function(e) {
     //display the description of the smoothie in the output div
     switch (size) {
         case 'small':
-            document.getElementById('output').innerHTML = `<img src="images/smoothie.svg" alt="smoothie picture" height="100"> <p>${smoothie.getDescription()}</p>` ;
+            document.getElementById('output').innerHTML = `<img src="./images/smoothie.svg" alt="smoothie picture" height="100"> <p>${smoothie.getDescription()}</p>` ;
             break;
         case 'medium':
-            document.getElementById('output').innerHTML = `<img src="images/smoothie.svg" alt="smoothie picture" height="135"> <p>${smoothie.getDescription()}</p>` ;
+            document.getElementById('output').innerHTML = `<img src="./images/smoothie.svg" alt="smoothie picture" height="135"> <p>${smoothie.getDescription()}</p>` ;
             break;
         case 'large':
-            document.getElementById('output').innerHTML = `<img src="images/smoothie.svg" alt="smoothie picture" height="180"> <p>${smoothie.getDescription()}</p>` ;
+            document.getElementById('output').innerHTML = `<img src="./images/smoothie.svg" alt="smoothie picture" height="180"> <p>${smoothie.getDescription()}</p>` ;
             break;
         default:
-            document.getElementById('output').innerHTML = `<img src="images/smoothie.svg" alt="smoothie picture" height="135"> <p>${smoothie.getDescription()}</p>` ;
+            document.getElementById('output').innerHTML = `<img src="./images/smoothie.svg" alt="smoothie picture" height="135"> <p>${smoothie.getDescription()}</p>` ;
     }
 });
